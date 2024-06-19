@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:4.4
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - pizza-network
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - pizza-network
+
+  order-service:
+    build: .
+    container_name: order-service
+    env_file:
+      - .env
+    depends_on:
+      - mongo
+      - rabbitmq
+    networks:
+      - pizza-network
+    environment:
+      RABBITMQ_URL: amqp://rabbitmq
+      MONGO_URI: mongodb://mongo:27017/pizza
+
+networks:
+  pizza-network:
+    driver: bridge

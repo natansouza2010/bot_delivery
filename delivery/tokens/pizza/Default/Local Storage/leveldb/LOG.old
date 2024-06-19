@@ -1,0 +1,6 @@
+2024/06/18-20:04:58.451 683c Reusing MANIFEST C:\Users\natan\Documents\delivery\tokens\pizza\Default\Local Storage\leveldb/MANIFEST-000001
+2024/06/18-20:04:58.458 683c Recovering log #3
+2024/06/18-20:04:58.461 683c Reusing old log C:\Users\natan\Documents\delivery\tokens\pizza\Default\Local Storage\leveldb/000003.log 
+2024/06/18-20:22:08.818 7280 Level-0 table #5: started
+2024/06/18-20:22:08.822 7280 Level-0 table #5: 17145 bytes OK
+2024/06/18-20:22:08.825 7280 Delete type=0 #3

@@ -1,0 +1,31 @@
+2024/06/18-20:33:12.861 6818 Reusing MANIFEST C:\Users\natan\Documents\delivery\tokens\pizza\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/18-20:33:12.861 6818 Recovering log #180
+2024/06/18-20:33:12.914 6818 Reusing old log C:\Users\natan\Documents\delivery\tokens\pizza\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000180.log 
+2024/06/18-20:33:14.242 62d4 Level-0 table #186: started
+2024/06/18-20:33:14.263 62d4 Level-0 table #186: 884291 bytes OK
+2024/06/18-20:33:14.265 62d4 Delete type=0 #180
+2024/06/18-20:33:14.266 62d4 Manual compaction at level-0 from '\x00B\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00C\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/18-20:33:15.577 62d4 Compacting 1@1 + 1@2 files
+2024/06/18-20:33:15.656 62d4 Generated table #187@1: 47167 keys, 1760599 bytes
+2024/06/18-20:33:15.656 62d4 Compacted 1@1 + 1@2 files => 1760599 bytes
+2024/06/18-20:33:15.657 62d4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/18-20:33:15.658 62d4 Delete type=2 #183
+2024/06/18-20:33:15.658 62d4 Delete type=2 #186
+2024/06/18-20:44:03.862 6818 Level-0 table #189: started
+2024/06/18-20:44:03.926 6818 Level-0 table #189: 1255249 bytes OK
+2024/06/18-20:44:03.927 6818 Delete type=0 #185
+2024/06/18-20:44:04.181 6818 Compacting 1@1 + 1@2 files
+2024/06/18-20:44:04.249 6818 Generated table #190@1: 54887 keys, 2041450 bytes
+2024/06/18-20:44:04.249 6818 Compacted 1@1 + 1@2 files => 2041450 bytes
+2024/06/18-20:44:04.250 6818 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/18-20:44:04.250 6818 Delete type=2 #187
+2024/06/18-20:44:04.251 6818 Delete type=2 #189
+2024/06/18-20:49:10.972 6818 Level-0 table #192: started
+2024/06/18-20:49:10.995 6818 Level-0 table #192: 1310609 bytes OK
+2024/06/18-20:49:10.996 6818 Delete type=0 #188
+2024/06/18-20:49:20.964 6818 Compacting 1@1 + 1@2 files
+2024/06/18-20:49:21.020 6818 Generated table #193@1: 59267 keys, 2124790 bytes
+2024/06/18-20:49:21.020 6818 Compacted 1@1 + 1@2 files => 2124790 bytes
+2024/06/18-20:49:21.021 6818 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/18-20:49:21.021 6818 Delete type=2 #190
+2024/06/18-20:49:21.021 6818 Delete type=2 #192
